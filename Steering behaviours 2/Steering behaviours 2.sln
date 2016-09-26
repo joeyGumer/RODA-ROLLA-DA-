@@ -1,0 +1,23 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{725A199B-424B-7774-5414-4042EBD04434}") = "Steering behaviours 2", "Assembly-CSharp.csproj", "{D7E69D1C-4385-D7A7-6EEC-B7AAC1899E72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D7E69D1C-4385-D7A7-6EEC-B7AAC1899E72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D7E69D1C-4385-D7A7-6EEC-B7AAC1899E72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D7E69D1C-4385-D7A7-6EEC-B7AAC1899E72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D7E69D1C-4385-D7A7-6EEC-B7AAC1899E72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

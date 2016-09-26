@@ -33,21 +33,21 @@ public class KinematicWander : MonoBehaviour {
 
     }
 
-    void WanderSeek()
+    /*void WanderSeek()
     {
         if(Time.)
         Vector3 vel = new Vector3(RandomBinominal(), 0, RandomBinominal());
         vel *= 10;
         Seek(vel);
        
-    }	
+    }*/
 
 	// Update is called once per frame
 	void Update () 
 	{
 
         // TODO 9: Generate a velocity vector in a random rotation (use RandomBinominal) and some attenuation factor
-        WanderSeek();
+        //WanderSeek();
         
        
 	}
