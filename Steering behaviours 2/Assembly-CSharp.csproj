@@ -1,11 +1,12 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <RootNamespace></RootNamespace>
+    <RootNamespace>
+    </RootNamespace>
     <ProjectGuid>{D7E69D1C-4385-D7A7-6EEC-B7AAC1899E72}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -45,25 +46,26 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Kinematic\KinematicArrive.cs" />
-     <Compile Include="Assets\Kinematic\KinematicFaceMovement.cs" />
-     <Compile Include="Assets\Kinematic\KinematicFlee.cs" />
-     <Compile Include="Assets\Kinematic\KinematicSeek.cs" />
-     <Compile Include="Assets\Kinematic\KinematicWander.cs" />
-     <Compile Include="Assets\Kinematic\Move.cs" />
-     <Compile Include="Assets\MoveToMouseClick.cs" />
-     <Compile Include="Assets\Steering\SteeringAlign.cs" />
-     <Compile Include="Assets\Steering\SteeringArrive.cs" />
-     <Compile Include="Assets\Steering\SteeringFlee.cs" />
-     <Compile Include="Assets\Steering\SteeringPursue.cs" />
-     <Compile Include="Assets\Steering\SteeringSeek.cs" />
-     <Compile Include="Assets\Steering\SteeringVelocityMatching.cs" />
- <Reference Include="UnityEngine.UI">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
- </Reference>
- <Reference Include="UnityEngine.Networking">
- <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
- </Reference>
+    <Compile Include="Assets\Kinematic\KinematicArrive.cs" />
+    <Compile Include="Assets\Kinematic\KinematicFaceMovement.cs" />
+    <Compile Include="Assets\Kinematic\KinematicFlee.cs" />
+    <Compile Include="Assets\Kinematic\KinematicSeek.cs" />
+    <Compile Include="Assets\Kinematic\KinematicWander.cs" />
+    <Compile Include="Assets\Kinematic\Move.cs" />
+    <Compile Include="Assets\MoveToMouseClick.cs" />
+    <Compile Include="Assets\Steering\SteeringAlign.cs" />
+    <Compile Include="Assets\Steering\SteeringArrive.cs" />
+    <Compile Include="Assets\Steering\SteeringFlee.cs" />
+    <Compile Include="Assets\Steering\SteeringPursue.cs" />
+    <Compile Include="Assets\Steering\SteeringSeek.cs" />
+    <Compile Include="Assets\Steering\SteeringVelocityMatching.cs" />
+    <Compile Include="Assets\Steering\SteeringWander.cs" />
+    <Reference Include="UnityEngine.UI">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -73,5 +75,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-  
 </Project>

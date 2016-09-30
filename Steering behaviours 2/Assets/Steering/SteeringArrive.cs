@@ -40,17 +40,17 @@ public class SteeringArrive : MonoBehaviour {
         }
         else
         {
-            //move.SetMovementVelocity(Vector3.zero);
+            
             if (vel.magnitude > min_distance)
             {
-                float velocity = (move.max_mov_velocity / slow_distance) * vel.magnitude;
+                vel = (move.movement / transform.position) * vel.magnitude;
                 move.SetMovementVelocity(vel * velocity);
             }
-
-           
-
-            
-
+            else
+            {
+                move.SetMovementVelocity(Vector3.zero);
+            }
+   
         }
     }
 

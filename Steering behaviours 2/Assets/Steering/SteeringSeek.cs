@@ -25,8 +25,7 @@ public class SteeringSeek : MonoBehaviour {
         
         Vector3 vel = target - transform.position;
 
-        
-     
+
             vel.Normalize();
 
             vel *= move.max_mov_acceleration;
